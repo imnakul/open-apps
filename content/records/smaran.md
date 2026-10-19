@@ -19,6 +19,17 @@ tags:
   - offline-first
   - notion-sync
   - expo
+bestFor:
+  - Keeping reminders, learnings, gratitude, quotes, and habits on an Android device.
+  - Studying Expo notifications, Android share intents, and optional two-way Notion sync.
+whyListed:
+  - Provides a focused MIT-licensed Android app combining five offline collections with optional user-owned Notion databases.
+  - Small-project consideration is based on inspectable Expo source and documented native build instructions rather than adoption claims.
+caveats:
+  - Android is the current platform; iOS is planned.
+  - No verified Play Store or APK installation channel is provided.
+  - The PIN is an access gate, not encryption of the stored thoughts.
+  - Early-stage project with limited adoption; maintainer review is requested.
 seo:
   title: Smaran - Open Source Android Reminders and Notes
 addedAt: 2026-10-20
