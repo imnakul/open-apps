@@ -17,6 +17,16 @@ tags:
   - usage-analytics
   - token-usage
   - local-first
+bestFor:
+  - Inspecting local Codex and Claude Code session costs and runtime.
+  - Studying read-only SQLite and JSONL ingestion in a TypeScript application.
+whyListed:
+  - Combines local session inspection, active runtime comparisons, and editable API-equivalent pricing without model calls or session uploads.
+  - Small-project consideration is based on inspectable MIT source, documented local setup, and synthetic reader and pricing tests rather than adoption claims.
+caveats:
+  - Requires Node.js 24 or newer and existing local Codex or Claude Code records.
+  - Estimates are not subscription billing totals and internal provider formats can change.
+  - Early-stage project with limited adoption; maintainer review is requested.
 seo:
   title: Codex Claude Ledger - Open Source AI Usage Dashboard
 addedAt: 2026-10-20
